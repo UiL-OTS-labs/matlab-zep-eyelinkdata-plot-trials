@@ -22,12 +22,12 @@ For now, it is just a simple, quite generic plotting tool that shows graphs like
 
 ```
 
-        zoomed out                  zoomed in
-        screen pixel based          to screen
-        x-y scatterplot             x-y plot in degrees
+                 zoomed out                  zoomed in
+                 screen pixel based          to screen
+                 x-y scatterplot             x-y plot in degrees
 
-               |                       |
-               V                       V
+                        |                       |
+                        V                       V
 		-----------------------      -----------------------
 		|                      |    |                       |
 		|      |---------|     |    |                       |
@@ -37,16 +37,16 @@ For now, it is just a simple, quite generic plotting tool that shows graphs like
 		|----------------------|    |-----------------------|
 
 		|---------------------------------------------------|
-	x/t	|_________/---------------------                    |  x signal/time (degrees)
+	x/t	|_________/---------------------\_____              |  x signal/time (degrees)
                 |---------------------------------------------------|
 
 		|---------------------------------------------------|
-	y/t	|------------------------------                     |  y signal/time (degrees)
+	y/t	|-------------------------------------              |  y signal/time (degrees)
 	        |---------------------------------------------------|
 
 		|---------------------------------------------------|
-	v/t	|         /\                                        |  velocity/time deg/s
-                |--------/  \---------------------------------------|
+	v/t	|         /\                    /\                  |  velocity/time deg/s
+                |------^=/  \=====-=-==`-====--/- \^=---------------|
 
 ```
 
